@@ -9,7 +9,7 @@ NoPixel style legacyfuel
 
 [Preview](https://imgur.com/a/zapOyHT)
 
-###Tax:
+##Tax:
 - Put this in qb-core/server/functions.lua
 ```lua
 QBCore.Functions.GlobalTax = function(value)
