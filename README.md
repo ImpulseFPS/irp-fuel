@@ -3,4 +3,5 @@
 NoPixel style legacyfuel
 
 #Dependecis
-<a href="https://github.com/bashenga/polyzonehelper"><strong>Explore the docs »</strong></a>
+[PolyZoneHelper](https://github.com/bashenga/polyzonehelper)
+[cd_drawtxtui](https://github.com/ImpulseFPS/cd_drawtextui)
