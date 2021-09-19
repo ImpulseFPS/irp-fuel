@@ -9,7 +9,7 @@ NoPixel style legacyfuel
 
 [Preview](https://imgur.com/a/zapOyHT)
 
-##Tax:
+#Tax:
 - Put this in qb-core/server/functions.lua
 ```lua
 QBCore.Functions.GlobalTax = function(value)
@@ -22,7 +22,7 @@ end
 QBConfig.Server.GlobalTax = 15.0
 ```
 
-###How does it work:
+#How does it work:
 - So basicly the progbar time is calculated by the gas in the vehicle
 - if the gas is lower it will take more time to fill up the vehicle
 - if the gas is higer it will take less time to fill up the vehicle
