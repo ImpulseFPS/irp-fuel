@@ -1,7 +1,7 @@
 # irp-fuel
 ### Fuel used with QBCore Framework
 NoPixel style legacyfuel
-
+### You will have to change exports from LegacyFuel to irp-fuel or more simple way change the folder name from irp-fuel to LegacyFuel
 # Dependecis:
 - [PolyZoneHelper](https://github.com/bashenga/polyzonehelper)
 - [cd_drawtxtui](https://github.com/ImpulseFPS/cd_drawtextui)
