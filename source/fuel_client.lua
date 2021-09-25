@@ -115,10 +115,10 @@ AddEventHandler('polyzonehelper:exit', function(name)
 end)
 
 
-Citizen.CreateThread(function() -- over here we add polyzones with polyzonehelper
-    for k, v in pairs(Config.GasStations) do --shared lua from qb-garages
+Citizen.CreateThread(function() 
+    for k, v in pairs(Config.GasStations) do 
         exports["polyzonehelper"]:AddBoxZone('GasStations', vector3(Config.GasStations[k].polyzone.x, Config.GasStations[k].polyzone.y, Config.GasStations[k].polyzone.z), Config.GasStations[k].polyzone1, Config.GasStations[k].polyzone2, {
-            name='GasStations', -- polyzone name
+            name='GasStations', 
             heading = Config.GasStations[k].polyzoneHeading,
             debugPoly=false
         })
